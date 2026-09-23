@@ -1,0 +1,91 @@
+  p{
+    font-family: arial;
+    margin: 0;
+}
+
+  .small-head{
+    font-size: 13px;
+    color: RGB(255, 140, 0);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+  .sub-head{
+    font-weight: bold;
+    text-align: center;
+}
+ 
+  .head{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+}
+  
+  .description{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+  .button{
+    background-color: rgb(0, 113, 227);
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+  .amount{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+  .usd{
+    font-size: 15px;
+    color: rgb(72,72,72);
+}
+
+  .percent{
+    color: green;
+    font-size:15px;
+    margin-bottom: 10px;
+}
+
+  .after-hour{
+    color: rgb(72,72,72);
+    font-size: 15px;
+}
+
+  .red{
+    color: red;
+    margin-left: 2px;
+}
+
+  .free_code_camp{
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+  .gray{
+    font-decoration: none;
+    color: gray;
+    font-weight: normal;
+    font-size: 15px;
+}
+  
+  .camp_description{
+    width: 500px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+  .blue{
+    color: rgb(29, 155, 240);
+}

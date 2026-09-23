@@ -1,0 +1,156 @@
+.square{
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.circle{
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.service{
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  display: inline-block;
+  padding-right: 100px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.head{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.install-youtube{
+  font-family: arial;
+  display: inline-block;
+  background-color: rgb(30,30,30);
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+.description{
+  color: white;
+  width: 360px;
+  margin: 0;
+} 
+
+.small-circle-image{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+span{
+  color: gray;
+}
+
+.tweet{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 16px;
+  margin-left: 100px;
+}
+
+.tweet-div{
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+}
+
+.tweet-paragraph{
+  margin: 0;
+}
+
+.square-image{
+  width:150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.name{
+  font-family: arial;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.status{
+  font-family: arial;
+  font-size: 15px;
+  color: gray;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.add-friend{
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 4px;
+}
+
+.dog{
+  box-shadow: 0 0 5px rgba(0,0,0,0.6);
+  display: inline-block;
+  margin-right: 5px;
+}
+
+
+.google{
+  width:250px;
+}
+
+.search{
+  font-size: 16px;
+  width: 400px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.google-image{
+  text-align: center;
+}
+
+.google-search{
+  text-align: center;
+}

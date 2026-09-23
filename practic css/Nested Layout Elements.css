@@ -1,0 +1,130 @@
+p{
+    font-family: arial;
+    margin: 0;
+}
+
+.profile-picture,
+.profile-description,
+.follow-button{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.profile-description{
+    margin-right: 100px;
+}
+
+.picture{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.description{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 3px;
+}
+
+.button{
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.profile{
+    border: 2px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.5);
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.one-profile{
+    display: inline-block;
+    margin-right: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+
+.upper-profile{
+    width: 150px;
+    height: 150px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.25)
+}
+
+.profile-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mutual-image{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.profile-name{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.mutual-stats{
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.mutual-description{
+    font-size: 14px;
+    color: rgb(100,100,100);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.add-friend-button{
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+}
+
+.lower-profile{
+    padding-left: 8px;
+    margin-bottom: 8px;
+}
+
+.container{
+    border: 2px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.5);
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

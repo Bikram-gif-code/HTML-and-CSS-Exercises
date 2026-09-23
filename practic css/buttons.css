@@ -1,0 +1,52 @@
+#btn1{
+  background-color: rgb(204, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  transition: opacity 0.15s;
+}
+
+#btn1:hover{
+  opacity: 0.6;
+    	}
+
+#btn1:active{
+  opacity: 0.4;
+}
+
+#btn2{
+  border: 1px solid blue;
+  color: rgb(6, 95, 212);
+  padding: 10px;
+  background-color: white;
+  margin-right: 8px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+#btn2:hover{
+  background-color: blue;
+  color: white;
+}
+
+#btn2:active{ 
+  opacity: 0.6;
+}
+
+#btn3{
+  border-radius: 18px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(29, 155, 240);;
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: none;
+  transition: box-shadow 0.15s;
+}
+  
+#btn3:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}

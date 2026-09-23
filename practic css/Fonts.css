@@ -1,0 +1,71 @@
+  p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+  .tahoma{
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 25px;
+}
+  .big-deal{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+  .sales{
+    font-family: arial;
+    font-style: italic;
+    margin-top: 5px;
+    color: red;
+}
+
+  .title{
+    font-family: verdana;
+    font-weight: bold;
+}
+
+  .sub-title{
+    font-family: verdana;
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+  .description{
+    font-family: verdana;
+    width: 300px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+  button{
+    font-family: verdana;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
+  .top{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+  .mid{
+    font-family: arial;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+  .bottom{
+    font-family: arial;
+    font-size: 15px;
+    color: blue;
+    text-align: center;
+}
