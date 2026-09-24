@@ -1,0 +1,149 @@
+p{
+    font-family: arial;
+    margin: 0;
+}
+
+hr{
+    border-weight: 2px;
+    border-style: solid;
+    border-color: black;
+
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    width: 300px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.number{
+    background-color: rgb(49, 109, 245);
+    color: white;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.whole{
+    width: 300px;
+    padding: 10px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.description{
+
+    width: 165px;
+}
+
+.name{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.description1,
+.description2{
+    font-size: 13px;
+    color: gray;
+}
+
+.description1{
+    font-size: 16px;
+}
+
+.follow-button{
+    background-color: rgb(107, 147, 255);
+    color: white;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+
+div{
+    font-family: arial;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 100px;
+    max-width: 800px;
+
+}
+
+.home{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.search{
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    flex: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 500px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.download-button{
+    font-family: arial;
+    background-color: blueviolet;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+}

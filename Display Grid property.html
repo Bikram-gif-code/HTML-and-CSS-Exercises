@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display Grid</title>
+        <style>
+            p{
+                font-family: arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .one-profile{
+                margin-right: 10px;
+                box-shadow: 0 0 5px rgba(0,0,0,0.25);
+                vertical-align: middle;
+            }
+
+            .upper-profile{
+                width: 100%;
+                height: 250px;
+                border: 1px;
+                border-style: solid;
+                border-color: rgba(0,0,0,0.25)
+            }
+
+            .profile-image{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .mutual-image{
+                width: 100%;
+                height: 30px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin-right: 5px;
+                vertical-align: middle;
+            }
+
+            .profile-name{
+                font-weight: bold;
+                font-size: 16px;
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+
+            .mutual-stats{
+                display: grid;
+                grid-template-columns: 30px 1fr;
+                column-gap: 10px;
+                vertical-align: middle;
+            }
+
+            .mutual-description{
+                font-size: 14px;
+                color: rgb(100,100,100);
+                vertical-align: middle;
+            }
+
+            .add-friend-button{
+                background-color: rgb(24, 119, 242);
+                color: white;
+                border: none;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                border-radius: 5px;
+            }
+
+            .lower-profile{
+                display: grid;
+                grid-template-columns: 1fr;
+                row-gap: 5px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+
+            .container{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="display: grid;
+                grid-template-columns: 200px 75px;">
+            <div style="background-color: lightgreen;">200px</div>
+            <div style="background-color: skyblue;">75px</div>
+        </div>
+
+        <br><br>
+
+        <div style="display: grid;
+                grid-template-columns: 50px 1fr 75px;">
+            <div style="background-color: rgb(197, 148, 148);">col1</div>
+            <div style="background-color: aqua;">col2</div>
+            <div style="background-color: rgb(247, 196, 103)">col3</div>
+        </div>
+
+        <br><br>
+
+        <div style="display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 10px;">
+            <div style="background-color: violet">col1</div>
+            <div style="background-color: violet">col2</div>
+            <div style="background-color: violet">col3</div>
+            <div style="background-color: violet">col4</div>
+            <div style="background-color: violet">col1</div>
+            <div style="background-color: violet">col2</div>
+            <div style="background-color: violet">col3</div>
+            <div style="background-color: violet">col4</div>
+        </div>
+
+        <br><br>
+
+        <div class="container">
+           <div class="one-profile">
+                <div class="upper-profile">
+                    <img class="profile-image" src="./thumbnail/OIP.jpeg" >
+                </div>
+                <div class="lower-profile">
+                    <p class="profile-name">Husky</p>
+                    <div class="mutual-stats">
+                        <img class="mutual-image" src="./thumbnail/cat image.jpeg">
+                        <p class="mutual-description">2 mutual friends</p>
+                    </div>
+                    <div>
+                        <button class="add-friend-button">Add Friend</button>
+                    </div>
+                </div>
+           </div>
+
+           <div class="one-profile">
+                <div class="upper-profile">
+                    <img class="profile-image" src="./thumbnail/OIP (1).jpeg">
+                </div>
+                <div class="lower-profile">
+                    <p class="profile-name">Rocky</p>
+                    <div class="mutual-stats">
+                        <img class="mutual-image" src="./thumbnail/cat image.jpeg">
+                        <p class="mutual-description">3 mutual friends</p>
+                    </div>
+                    <div>
+                        <button class="add-friend-button">Add Friend</button>
+                    </div>
+                </div>
+           </div>
+
+           <div class="one-profile">
+                <div class="upper-profile">
+                    <img class="profile-image" src="./thumbnail/cute dog.webp">
+                </div>
+                <div class="lower-profile">
+                    <p class="profile-name">bob</p>
+                    <div class="mutual-stats">
+                        <img class="mutual-image" src="./thumbnail/cat image.jpeg">
+                        <p class="mutual-description">4 mutual friends</p>
+                    </div>
+                    <div>
+                        <button class="add-friend-button">Add Friend</button> 
+                    </div>
+                </div>
+           </div>
+        </div>
+    </body>
+</html>

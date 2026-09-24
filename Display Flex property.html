@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display Flex</title>
+        <link rel="stylesheet" href="practic css/Display flex property.css">
+    </head>
+    <body>
+        <div style="
+                display: flex;
+                flex-direction: row;
+            ">
+            <div style="width: 200px;
+                background-color: aquamarine;">200px</div>
+            <div style="width: 75px;
+                background-color: lightsalmon;">75px</div>
+        </div>
+
+        <br><br><br><br>
+
+        <div style="display: flex;
+                flex-direction: row;">
+            <div style="width: 50px;
+                    background-color: lightcoral;">item1</div>
+            <div style="flex: 1;
+                    background-color: lightseagreen;">item2</div>
+            <div style="width: 75px;
+                    background-color: lightpink;">item3</div>
+        </div>
+
+        <br><br><br><br>
+
+        <div style="display: flex;
+                flex-direction: row;
+                justify-content: space-between">
+            <div style="background-color: yellow;">item1</div>
+            <div style="background-color: yellow;">item2</div>
+            <div style="background-color: yellow;">item3</div>
+            <div style="background-color: yellow;">item4</div>
+        </div>
+
+        <br><br><br><br>
+
+        <div style="display: flex;
+                height: 50px;
+                flex-direction: row;
+                justify-content: space-between;
+                border-width: 2px;
+                border-style: solid;
+                border-color: gray;
+                align-items: center;">
+            <div style="background-color: gold;">item1</div>
+            <div style="background-color: gold;">item2</div>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="container">
+            <div class="wrapper">
+                <p>Home</p>
+                <p class="number">15</p>
+            </div>
+            <div class="wrapper">
+                <p>Notifications</p>
+                <p class="number">6</p>
+            </div>
+            <div class="wrapper">
+                <p>Messages</p>
+                <p class="number">5</p>
+            </div>
+        </div>
+
+        <br><br><hr><br><br>
+
+        <div class="whole">
+            <div class="profile">
+                <img class="image" src="thumbnail/OIP.jpeg">
+                <div class="description">
+                    <p class="name">Husky</p>
+                    <p class="description1">the dog</p>
+                    <p class="description2">popular</p>
+                </div>
+                <button class="follow-button">Follow</button>
+            </div>
+
+            <div class="profile">
+                <img class="image" src="thumbnail/OIP (1).jpeg">
+                <div class="description">
+                    <p class="name">Rocky</p>
+                    <p class="description1">the dog</p>
+                    <p class="description2">popular</p>
+                </div>
+                <button class="follow-button">Follow</button>
+            </div> 
+
+            <div class="profile">
+                <img class="image" src="thumbnail/cute dog.webp">
+                <div class="description">
+                    <p class="name">Bob</p>
+                    <p class="description1">the dog</p>
+                    <p class="description2">popular</p>
+                </div>
+                <button class="follow-button">Follow</button>
+            </div>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="header">
+            <div class="home">Home</div>
+                <input class="search" type="text" placeholder="Search">
+                <button class="download-button">Download</button>
+        </div>
+    </body>
+</html>
