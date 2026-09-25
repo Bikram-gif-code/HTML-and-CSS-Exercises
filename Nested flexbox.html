@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nested Flexbox</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="practic css/Nested flexbox.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="div1">
+                <p style="background-color: black;
+                        color: white;">item1</p>
+            </div>
+            <div class="div2"></div>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="wrapper">
+            <div class="div1"></div>
+            <div style="background-color: lightblue;">
+                <p>row1</p>
+                <div class="div2">
+                    <P style="background-color: black;
+                        color: white;">row2</P>
+                    <P style="background-color: black;
+                        color: white;">row2</P>
+                </div>
+            </div>
+        </div>
+
+       <br><br><br><br>
+       
+       <div class="container">
+            <div class="separate-inbox">
+                <p class="inbox">ALL INBOXES</p>
+                <div class="horizontal">
+                    <img src="thumbnail/cat image.jpeg" alt="the cat">
+                    <div class="vertical">
+                        <div class="horizontal">
+                            <p class="head-line">
+                                Cat Promotion 
+                            </p>
+                            <span class="description" style="font-size: 14px;">
+                                10:12 AM
+                            </span>
+                        </div>
+                        <p class="sub-head-line">Biggest day of the year!</p>
+                        <p class="description">Hey there! We're writing to tell you about out...</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="separate-inbox">
+                <div class="horizontal">
+                    <img src="thumbnail/cute dog.webp" alt="the cat">
+                    <div class="vertical">
+                        <div class="horizontal">
+                            <p class="head-line">
+                                Hi there! I'm Bob
+                            </p>
+                            <span class="description" style="font-size: 14px;">
+                                10:12 AM
+                            </span>
+                        </div>
+                        <p class="sub-head-line">Your Best Buy eReceipt</p>
+                        <p class="description">Thank you for shopping at Best Buy, here is...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="separate-inbox">
+                <div class="horizontal">
+                    <img src="thumbnail/OIP (1).jpeg" alt="the cat">
+                    <div class="vertical">
+                        <div class="horizontal">
+                            <p class="head-line">
+                                Netflix 
+                            </p>
+                            <span class="description" style="font-size: 14px;">
+                                10:12 AM
+                            </span>
+                        </div>
+                        <p class="sub-head-line">Here's what's coming soon to Netflix</p>
+                        <p class="description">Brand new movies and shows, old favorites...</p>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <br><br><br><br>
+
+       <div class="container" style="display: flex;">
+            <img src="thumbnail/horse image.jpeg" alt="horse image" style="align-items: bottom;">
+            <div class="vertical" style="margin-left: 20px;">
+                <p class="sub-head-line" style="margin-bottom: 0;">
+                    NewChannel 
+                    <span class="description" style="font-size: 19px;">
+                        @NewChannelGo
+                    </span>
+                </p>
+                <p style="margin-bottom: 15px;">
+                    What is backend web development? A complete overview. New video is up!
+                </p>
+
+                <div class="horizontal" style="border: 1px solid rgb(200, 200,200); border-radius: 20px;">
+                    <div class="gray"></div>
+                    <div class="vertical" style="margin-left: 12px;">
+                        <p class="description" style="font-size: 19px; margin-bottom: 5px; ">youtube.com</p>
+                        <p>
+                            Backend web development - acomplete overview (2021)
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </body>
+</html>
