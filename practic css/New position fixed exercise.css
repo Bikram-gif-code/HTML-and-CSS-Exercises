@@ -1,0 +1,65 @@
+body{
+  height: 3000px;
+}
+
+.header{
+  font-family: arial;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.horse-image{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.name{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 22px;
+  margin-left: 10px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.add-friend-button{
+  background-color: blue;
+  color: white;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px; 
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.message-button{
+  background-color: lightgray;
+  font-size: bold;
+  border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
