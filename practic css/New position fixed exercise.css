@@ -1,8 +1,14 @@
 body{
   height: 3000px;
+  padding: 70px;
+}
+
+P{
+  margin: 0;
 }
 
 .header{
+  background-color: white;
   font-family: arial;
   display: flex;
   flex-direction: row;
@@ -13,9 +19,22 @@ body{
   padding-right: 50px;
   justify-content: space-between;
   position: fixed;
-  top: 0;
+  top: 0;;
   right: 0;
   left: 0;
+}
+
+.right-part{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.left-part{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .horse-image{
@@ -24,16 +43,14 @@ body{
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
-  vertical-align: middle;
 }
 
 .name{
   display: inline-block;
-  vertical-align: middle;
   font-size: 22px;
   margin-left: 10px;
   font-weight: bold;
-  margin-bottom: 0;
+  padding-bottom: 6px;
   margin-top: 0;
 }
 
@@ -41,8 +58,8 @@ body{
   background-color: blue;
   color: white;
   border: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   padding-right: 10px;
   padding-left: 10px; 
   border-radius: 5px;
@@ -56,10 +73,78 @@ body{
   border: none;
   padding-right: 10px;
   padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   font-weight: bold;
   font-size: 14px;
   border-radius: 5px;
-  margin-left: 5px;
+  margin-left: 8px;
+}
+
+.container{
+  font-family: arial;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  bottom: 0;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.image-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 70px;
+  padding-top: 18px;
+  background-color: rgb(33, 33, 33);
+}
+
+.info-bar{
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  background-color: rgb(55, 55, 55);
+  justify-content: start;
+  flex: 1;
+  justify-content: start;
+}
+
+
+img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.info{
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+
+.plus-sign{
+  color: gray;
+  font-size: 20px;
+}
+
+.additional{
+  font-family: arial;
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 13px;
+}
+
+.infos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 13px;
 }
