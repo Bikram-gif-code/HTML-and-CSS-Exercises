@@ -1,8 +1,13 @@
+p{
+  margin: 0;
+  padding: 0;
+}
 .container{
   font-family: arial;
   display: flex;
-  justify-content: space-evenly;
-  width: 400px;
+  justify-content: space-between;
+  width: 500px;
+  height: 30px;
 }
 
 .follow-button-container{
@@ -52,8 +57,6 @@
   color: rgb(6, 95, 212);
   padding: 10px;
   background-color: white;
-  margin-right: 8px;
-  margin-left: 8px;
   cursor: pointer;
   transition: background 0.15s, color 0.15s;
 }
@@ -65,7 +68,6 @@
   position: absolute;
   padding: 4px 8px;
   border-radius: 2px;
-  margin: 0;
   bottom: -50px;
   opacity: 0;
   pointer-events: none;
@@ -75,15 +77,11 @@
 
 .messanger-button-container{
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .messanger-icon{
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   object-fit: cover;
   position: relative;
 }
@@ -96,7 +94,6 @@
   position: absolute;
   padding: 4px 8px;
   left: 15px;
-  margin: 0;
   bottom: -50px;
   opacity: 0;
   pointer-events: none;
@@ -104,16 +101,100 @@
   white-space: nowrap;
 }
 
-.notification{
+.messanger-notification-container .notification{
   font-size: 12px;
   position: absolute;
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: -4px;
   color: white;
   right: -3px;
   background-color: rgb(255, 38, 0);
   border-radius: 50%;
-  padding: 2px;
-  padding-top: 3px;
-  padding-right: 3px;
+  height: 16px;
+  width: 16px;
+}
+
+.notification-icon{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.notification-container{
+  position: relative;
+  display: inline-block;
+}
+
+.notification-container .notification{
+  font-size: 10px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 3px;
+  color: white;
+  right: 5px;
+  background-color: rgb(255, 38, 0);
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+}
+
+.notification-button-container{
+  position: relative;
+}
+
+.notification-button-container .tooltip{
+  position: absolute;
+  background-color: darkgray;
+  color: white;
+  font-size: 14px;
+  padding: 3px 5px;
+  bottom: -45px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s;
+}
+
+.notification-button-container:hover .tooltip{
+  opacity: 1;
+}
+
+.game-button-container{
+  font-family: arial;
+  font-size: 12px;
+  height: 100px;
+  width: 100px;
+  justify-content: end;
+  position: relative;
+}
+
+.console-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.game-button-container .tooltip{
+  position: absolute;
+  background-color: rgb(33, 33, 33);
+  color: rgb(182, 182, 182);
+  bottom: -35px;
+  right: -20px;
+  height: 20px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(148, 148, 148);
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.game-button-container:hover .tooltip{
+  opacity: 1;
 }
